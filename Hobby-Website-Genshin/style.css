@@ -1,0 +1,232 @@
+/* start navigation styling*/
+.nav-list {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.719);
+}
+
+.nav-items {
+  float: left;
+}
+
+.nav-items a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-items a:hover:not(.active) {
+  background-color: rgba(15, 15, 15, 0.781);
+}
+
+.active {
+  background-color: rgba(219, 188, 9, 0.925);
+}
+/* end navigation styling*/
+
+/*home page styling*/
+body {
+  background-image: url('genshin_12_4K.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.quote {
+  text-align: center;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+/*The Seven Nation page setting*/
+
+.Mondstadt  {list-style-type: none; font-family: 'Righteous', cursive; margin-bottom: 15px;}
+
+.travelnote {list-style-type: none;}
+
+div.image1 {
+  width:300px;
+  background-color: rgba(255, 255, 255, 0.815);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: right;
+  margin-right: 20px;
+}
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+div.image2 {
+  width:300px;
+  background-color: rgba(255, 255, 255, 0.815);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  margin-left: 20px;
+}
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+
+div.image3 {
+  width:200px;
+  background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  margin-left: 20px;
+}
+
+div.container2 {
+  text-align: center;
+  padding: 1px 2px;
+}
+.image-chest {
+  list-style-type: none;
+  width:300px;
+  background-color: rgba(255, 255, 255, 0.651);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+
+
+/*Mondstadt*/
+
+.mond-start {list-style-type: none;
+font-family: 'Open Sans Condensed', sans-serif; 
+background-color: rgba(255, 255, 255, 0.699);
+margin: auto;
+margin-bottom: 35px;
+padding:10px;
+width: 80%;
+}
+
+a.travelnotes:link {
+  color: rgb(5, 5, 5);
+}
+a.travelnotes:visited {
+  color: rgba(12, 12, 12, 0.877);
+}
+a.travelnotes:hover {
+  color: rgba(219, 188, 9, 0.925);
+}
+
+a.travelnotes:active {
+  color: rgba(219, 188, 9, 0.925);
+}
+
+.mond-travelnote {
+  list-style-type: none;
+  font-family: 'Kaisei HarunoUmi', serif; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding:10px;
+  width:75%;
+}
+
+.mond-reference {
+  position: static;
+  left: 60%;
+  margin-bottom: 10px;
+}
+
+.mond-trivia { 
+  list-style-type: none;
+  font-family: 'Kaisei HarunoUmi', serif; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 8px;
+  margin-bottom: 65px;
+  margin-left: 85px;
+  padding: 15px;
+  width: 90%;
+}
+
+.mond-dain {font-family: 'Josefin Sans', sans-serif; text-align: center; margin-left: 25px; margin-right: 25px;}
+
+.mond-story {
+  margin: auto;
+  font-family: 'Kaisei HarunoUmi', serif; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 6px;
+  padding: 15px;
+  width: 80%;
+}
+
+.storyimage {text-align: center;}
+
+/*SITES-------*/
+
+.site {list-style-type: none; font-family: 'Abril Fatface', cursive;}
+.links {
+  list-style-type: none;
+  margin: auto;
+  font-family: 'Balsamiq Sans', cursive; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 6px;
+  padding: 15px;
+  width: 80%;
+}
+
+/*HOME PAGE------*/
+
+.about {
+  list-style-type: none; 
+  font-family: 'Kaisei HarunoUmi', serif; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding:10px;
+  width:75%;
+}
+
+.mihoyo {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.952);
+  border-radius: 6px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  padding:5px;
+  
+}
+
+.visionquote {font-family: 'Josefin Sans', sans-serif; text-align: center; margin-left: 25px; margin-right: 25px;}
+
+.visionpic{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.788);
+  border-radius: 6px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:5px;
+}
+.video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+}
+.chests {
+  list-style-type: none;
+  font-family: 'Kaisei HarunoUmi', serif; 
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding:10px;
+  width:85%;
+}
